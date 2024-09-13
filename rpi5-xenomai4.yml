@@ -1,0 +1,9 @@
+header:
+  version: 8
+  includes:
+    - rpi5.yml
+    - rpi-rt-common.yml
+
+local_conf_header:
+  kernel_features: |
+    PREFERRED_PROVIDER_virtual/kernel = "linux-raspberrypi-xeno4"
